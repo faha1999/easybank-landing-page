@@ -3,7 +3,7 @@
   
     .container {
   
-      @include bbreakpoints-up(large){    
+      @include breakpoints-up(large){    
         display: flex;
         align-items: center;
       }
@@ -17,12 +17,12 @@
       background-position: center center;
       min-height: 17.5rem;
   
-      @include bbreakpoints-up(medium){
+      @include breakpoints-up(medium){
         min-height: 25rem;
         background-position: center 70%;
       }
   
-      @include bbreakpoints-up(large){
+      @include breakpoints-up(large){
         flex: 3;
         order: 2;
         height: 41rem;
@@ -37,7 +37,7 @@
   
       &::before { 
   
-        @include bbreakpoints-up(large){
+        @include breakpoints-up(large){
           content: "";
           position: absolute;
           height: 100%;
@@ -60,11 +60,11 @@
         background-repeat: no-repeat;
         background-position: center bottom;
   
-        @include bbreakpoints-up(medium){
+        @include breakpoints-up(medium){
           background-size: 52%;
         }
   
-        @include bbreakpoints-up(large){
+        @include breakpoints-up(large){
           width: 120%;
           height: 122%;
           background-size: 94%;
@@ -77,7 +77,7 @@
     &__text {
       text-align: center;
   
-      @include bbreakpoints-up(large){
+      @include breakpoints-up(large){
         flex: 2;
         order: 1;
         text-align: left;
