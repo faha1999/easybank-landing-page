@@ -1,14 +1,14 @@
 .hero{
 
     &__image{
-        background-image: url('/images/bg-intro-desktop.svg');
+        background-image: url('../images/bg-intro-desktop.svg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         min-height: 17.5rem;
 
         &::before{
-            background-image: url('/images/image-mockups.png');
+            background-image: url('../images/image-mockups.png');
         }
     }
 
