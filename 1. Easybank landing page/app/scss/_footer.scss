@@ -24,7 +24,7 @@
     &__logo {
       display: inline-block;
   
-      @include breakpoint-down(medium) {
+      @include breakpoints-down(medium) {
         margin-bottom: 1.875rem;
       }
   
@@ -34,7 +34,7 @@
     }
   
     &__social {
-      @include breakpoint-down(medium) {
+      @include breakpoints-down(medium) {
         margin-bottom: 1.875rem;
       }
   
@@ -79,7 +79,7 @@
       }
   
       &.col2 {
-        @include breakpoint-down(medium) {
+        @include breakpoints-down(medium) {
           margin-bottom: 1.875rem;
         }
   
@@ -106,7 +106,7 @@
       }
   
       a.button {
-        @include breakpoint-down(medium) {
+        @include breakpoints-down(medium) {
           margin-bottom: 1.875rem;
         }
       }
@@ -125,6 +125,12 @@
   
     .attribution {
       margin-top: 4rem;
-      font-size: 0.875rem;
+      font-size: 0.9375rem;
+      text-align: center;
+
+      a:hover{
+        color: $limeGreen;
+        transition: color 300ms ease-in-out;
+      }
     }
   }
